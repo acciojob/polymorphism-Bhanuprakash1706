@@ -7,7 +7,7 @@ public static void main(String [] args){
     System.out.println(p.product(10,20,30));
     System.out.println(p.product(20.00,20.00));
 }
- static class Product{
+ public static class Product{
     public int product(int x,int y){
         return x*y;
     }
